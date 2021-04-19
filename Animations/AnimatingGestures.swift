@@ -59,6 +59,9 @@ struct AnimatingGesturesTwo: View {
 
 struct AnimatingGestures_Previews: PreviewProvider {
   static var previews: some View {
-    AnimatingGesturesTwo()
+    Group {
+      AnimatingGestures()
+      AnimatingGesturesTwo()
+    }
   }
 }

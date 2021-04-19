@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FD0FAECA262DB07F00AC97C2 /* ShowHideTransitionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0FAEC9262DB07F00AC97C2 /* ShowHideTransitionsView.swift */; };
+		FD0FAECD262DF7DB00AC97C2 /* BuildingCustomTransitionsViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0FAECC262DF7DB00AC97C2 /* BuildingCustomTransitionsViewModifiers.swift */; };
 		FD28746D2624B12A001F2077 /* ControllingTheAnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28746C2624B12A001F2077 /* ControllingTheAnimationStack.swift */; };
 		FD690A76262C710400D5EC70 /* AnimatingGestures.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD690A75262C710400D5EC70 /* AnimatingGestures.swift */; };
 		FD6DA118262360BF00781A5A /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6DA117262360BF00781A5A /* AnimationsApp.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		FD0FAEC9262DB07F00AC97C2 /* ShowHideTransitionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowHideTransitionsView.swift; sourceTree = "<group>"; };
+		FD0FAECC262DF7DB00AC97C2 /* BuildingCustomTransitionsViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingCustomTransitionsViewModifiers.swift; sourceTree = "<group>"; };
 		FD28746C2624B12A001F2077 /* ControllingTheAnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllingTheAnimationStack.swift; sourceTree = "<group>"; };
 		FD690A75262C710400D5EC70 /* AnimatingGestures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures.swift; sourceTree = "<group>"; };
 		FD6DA114262360BF00781A5A /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,6 +72,7 @@
 				FD28746C2624B12A001F2077 /* ControllingTheAnimationStack.swift */,
 				FD690A75262C710400D5EC70 /* AnimatingGestures.swift */,
 				FD0FAEC9262DB07F00AC97C2 /* ShowHideTransitionsView.swift */,
+				FD0FAECC262DF7DB00AC97C2 /* BuildingCustomTransitionsViewModifiers.swift */,
 				FD6DA11B262360C300781A5A /* Assets.xcassets */,
 				FD6DA120262360C300781A5A /* Info.plist */,
 				FD6DA121262360C300781A5A /* Animations.entitlements */,
@@ -158,6 +161,7 @@
 				FD690A76262C710400D5EC70 /* AnimatingGestures.swift in Sources */,
 				FD6DA12E26236A9200781A5A /* ExplicitAnimations.swift in Sources */,
 				FD6DA11A262360BF00781A5A /* ContentView.swift in Sources */,
+				FD0FAECD262DF7DB00AC97C2 /* BuildingCustomTransitionsViewModifiers.swift in Sources */,
 				FD6DA118262360BF00781A5A /* AnimationsApp.swift in Sources */,
 				FD28746D2624B12A001F2077 /* ControllingTheAnimationStack.swift in Sources */,
 				FD0FAECA262DB07F00AC97C2 /* ShowHideTransitionsView.swift in Sources */,

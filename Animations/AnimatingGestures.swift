@@ -30,7 +30,7 @@ struct AnimatingGestures: View {
 
 struct AnimatingGesturesTwo: View {
 
-  @State private var dragAmount = CGSize.zero
+  @State private var zoomAmount: CGFloat = 1
   let letters = Array("Hello SwiftUI")
   @State private var enabled = false
   let isModeOne = true
@@ -42,15 +42,17 @@ struct AnimatingGesturesTwo: View {
           .padding(5)
           .font(.title)
           .background(self.enabled ? Color.blue : Color.red)
-          .offset(self.dragAmount)
+          .scaleEffect(self.zoomAmount)
           .animation(Animation.default.delay(Double(num) / 20))
       }
     }
     .gesture(
-      DragGesture()
-        .onChanged { self.dragAmount = $0.translation }
+      MagnificationGesture()
+        .onChanged { gesture in
+          self.zoomAmount = gesture
+        }
         .onEnded { _ in
-          self.dragAmount = .zero
+          self.zoomAmount = .zero
           self.enabled.toggle()
         }
     )
@@ -60,7 +62,7 @@ struct AnimatingGesturesTwo: View {
 struct AnimatingGestures_Previews: PreviewProvider {
   static var previews: some View {
     Group {
-      AnimatingGestures()
+//      AnimatingGestures()
       AnimatingGesturesTwo()
     }
   }
